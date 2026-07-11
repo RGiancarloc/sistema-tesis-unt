@@ -1,0 +1,93 @@
+# ============================================================================
+# .gitignore - Sistema de Gestión de Tesis UNT
+# ============================================================================
+
+# Dependencias
+node_modules/
+.pnp/
+.pnp.js
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Producción
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Base de datos
+*.sql.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Temporales
+tmp/
+temp/
+*.tmp
+
+# Build artifacts
+*.tsbuildinfo
+
+# Prisma
+prisma/migrations/
+
+# Certificados y claves
+*.pem
+*.key
+*.crt
+*.p12
+
+# Uploads
+uploads/
+public/uploads/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Misc
+.vercel/
+.netlify/
+.turbo/
